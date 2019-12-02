@@ -84,15 +84,6 @@ Zweck:
 -2 JSON dateien fuer Datenbank
 -1 JSON datei fuer die Pensionäre
 -1 JSON datei fuer die Vorlage
-
-
-#### 
-Ergebnis:
-![CSS ](./css.png)
-![html 1/2](./curl.png)
-
-
- 
 ___
 
 
