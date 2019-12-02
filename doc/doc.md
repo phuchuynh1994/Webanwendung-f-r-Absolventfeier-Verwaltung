@@ -1,6 +1,6 @@
-**WEB-anwendung**
+**WEB-Anwendung**
 
-**Team: Huu Phuc Huynh**
+**Huu Phuc Huynh**
  
 **Datum: 18.1.2018**
 
@@ -39,51 +39,51 @@ Besteht aus:
  
 Zweck:
 
--Startet den Server
+- Startet den Server
 
 Aufbau:
 
--Besteht aus einer main funktion und ihrem Aufruf.
+- Besteht aus einer main funktion und ihrem Aufruf.
 
 Zusammenwirken mit anderen Komponenten:
 
--Initialisiert die Klasse Application,template
+- Initialisiert die Klasse Application,template
  
  API:
  
--main()
+- main()
  
 #### application.py:
  
 Zweck:
 
--F&uuml;hrt die Komponenten des Servers zusammen
+- F&uuml;hrt die Komponenten des Servers zusammen
 
--Stellt Schnittstelle zum Frontend
+- Stellt Schnittstelle zum Frontend
 
 #### view.py:
  
 Zweck:
 
--Zusammenstellen von Html Views
+- Zusammenstellen von Html Views
 
 #### view_cl.py:
 
--Zusammenstellen von Html Views aus Templates 
+- Zusammenstellen von Html Views aus Templates 
 
 #### databse.py:
 
--Verwaltung von Datenbank
+- Verwaltung von Datenbank
 
 ####varabeitung.py:
 
--geburtdatum von Pensionäre zu verwalten
+- geburtdatum von Pensionäre zu verwalten
 
 
 ### Datenablage:
--2 JSON dateien fuer Datenbank
--1 JSON datei fuer die Pensionäre
--1 JSON datei fuer die Vorlage
+- 2 JSON dateien fuer Datenbank
+- 1 JSON datei fuer die Pensionäre
+- 1 JSON datei fuer die Vorlage
 ___
 
 
