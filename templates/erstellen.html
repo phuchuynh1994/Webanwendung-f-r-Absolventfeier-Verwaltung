@@ -1,0 +1,34 @@
+<h2 align="center">Jahresübersicht Geburtstage</h2>
+<table align="center">
+   <tr>
+      <th>id</th><th>geburtdatum</th>
+
+   </tr>
+   @var entry_a;@
+   @var loop_i;@
+   @for loop_i = 0; loop_i < context['person'].length; loop_i++@
+      @entry_a = context['person'][loop_i];@
+      <tr id="#entry_a['id']#">
+         <td >#entry_a['id']#</td>
+          <td>#entry_a['datum']#</td>
+      </tr>
+   @endfor@
+</table>
+<br>
+<br>
+<br>
+
+<div align="center"><form>
+            <label for="vorlage" >vorlage:</label>
+                <select name="vorlage" id ="vorlage">
+                   @var entry_b;@
+                   @for loop_i = 0; loop_i < context['vorlage'].length; loop_i++@
+                     @entry_b = context['vorlage'][loop_i];@
+                   <option value="#entry_b['id']#">#entry_b['path']# </option>
+                    @endfor@
+            </select>
+</form>
+        </div>
+<div align="center">
+   <button id="erstellung">submit</button>
+</div>

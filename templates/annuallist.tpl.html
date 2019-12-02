@@ -1,0 +1,20 @@
+<!-- Template -->
+<!-- Contentbereich -->
+<h2 align="center">Jahresübersicht Geburtstage</h2>
+<table align="center">
+   <tr>
+      <th>id</th><th>geburtdatum</th>
+
+   </tr>
+   @var entry_a;@
+   @var loop_i;@
+   @for loop_i = 0; loop_i < context.length; loop_i++@
+      @entry_a = context[loop_i];@
+      <tr id="#entry_a['id']#" class ="#entry_a['sign']#">
+         <td >#entry_a['id']#</td>
+          <td>#entry_a['datum']#</td>
+      </tr>
+   @endfor@
+</table>
+
+   <!-- EOF -->

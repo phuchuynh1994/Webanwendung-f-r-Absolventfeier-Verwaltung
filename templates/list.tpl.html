@@ -1,0 +1,38 @@
+<!-- Template -->
+<!-- Contentbereich -->
+<h2 align="center">Liste der Pensionäre</h2>
+<table>
+   <tr>
+      <th>id</th>
+      <th>Anrede</th><th>Name</th>
+       <th>Vorname</th><th>Titel</th>
+       <th>Geburtdatum</th><th>strasse</th>
+       <th>Hausnummer</th><th>Postleitzahl</th>
+      <th>Ort</th>
+   </tr>
+   @var entry_a;@
+   @var loop_i;@
+   @for loop_i = 0; loop_i < context.length; loop_i++@
+      @entry_a = context[loop_i];@
+      <tr id="#entry_a['id']#">
+         <td>#entry_a['id']#</td>
+         <td>#entry_a['Anrede']#</td>
+         <td>#entry_a['Name']#</td>
+         <td>#entry_a['Vorname']#</td>
+         <td>#entry_a['Titel']#</td>
+         <td>#entry_a['Geburtdatum']#</td>
+         <td>#entry_a['strasse']#</td>
+         <td>#entry_a['Hausnummer']#</td>
+         <td>#entry_a['Postleitzahl']#</td>
+         <td>#entry_a['Ort']#</td>
+      </tr>
+   @endfor@
+</table>
+<div>
+   <div>
+<button id="idShowListEntry">Anzeigen</button>
+<button id="idDelete">Loeschen</button>
+<button id="idInsert">Anlegen</button>
+</div>
+</div>
+   <!-- EOF -->

@@ -1,0 +1,32 @@
+<!-- Template -->
+<!-- Contentbereich -->
+<h2 align="center">Die Vorlagen für Gratulationsschreiben</h2>
+<table align="center">
+   <tr>
+      <th>id</th><th>path</th>
+
+   </tr>
+   @var entry_a;@
+
+   @var loop_i;@
+   @for loop_i = 0; loop_i < context.length; loop_i++@
+      @entry_a = context[loop_i];@
+      <tr id="#entry_a['id']#">
+         <td>#entry_a['id']#</td>
+         <td>#entry_a['path']#</td>
+      </tr>
+   @endfor@
+
+</table>
+<form>
+<div>
+        <label for="verwendung">verwendung </label>
+        <input type="text" id="verwendung" name="verwendung" value="0" />
+    </div>
+</form>
+<div align="center">
+<button id="import_vorlage">import</button>
+
+
+</div>
+   <!-- EOF -->

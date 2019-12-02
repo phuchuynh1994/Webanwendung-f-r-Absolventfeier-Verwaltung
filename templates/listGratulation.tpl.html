@@ -1,0 +1,27 @@
+<!-- Template -->
+<!-- Contentbereich -->
+<h2 align="center">Die Vorlagen für Gratulationsschreiben</h2>
+<table align="center">
+   <tr>
+      <th>id</th><th>Verwendung</th><th>path</th>
+
+   </tr>
+   @var entry_a;@
+   @var loop_i;@
+   @for loop_i = 0; loop_i < context.length; loop_i++@
+      @entry_a = context[loop_i];@
+      <tr id="#entry_a['id']#">
+         <td>#entry_a['id']#</td>
+          <td>#entry_a['verwendung']#</td>
+         <td>#entry_a['path']#</td>
+      </tr>
+   @endfor@
+</table>
+<div align="center">
+   <button id="import">import</button>
+   <button id="idDelete_vorlage">Loeschen</button>
+   <button id = "show_content"> anzeigen</button>
+   <button id = "getPath"> pfad</button>
+</div>
+<div id="content"></div>
+   <!-- EOF -->

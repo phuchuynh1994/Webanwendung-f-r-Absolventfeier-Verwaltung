@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<p><strong>WEB Praktikum 4 - WS 17/18</strong></p>
+<p><strong>Gruppe: E</strong></p>
+<p><strong>Team: Huu Phuc Huynh</strong></p>
+<p><strong>Datum: 18.1.2018</strong></p>
+<hr />
+<h1 id="dokumentation">Dokumentation</h1>
+<h3 id="allgemeine-beschreibung-der-lösung">Allgemeine Beschreibung der Lösung:</h3>
+<p>Pensionärsliste auf Seiten des Frontends mit Klassen in Python umgesetzt</p>
+<p>An das Frontend werden J.S. Dateien, eine CSS Datei und aus Templates generierter HTML-Codes geliefert.</p>
+<h3 id="aufbau-der-webanwendung">Aufbau der Webanwendung:</h3>
+<p>Besteht aus:</p>
+<ul>
+<li><p>6 Python Dateien zur die die Anwendung bilden</p></li>
+<li><p>1 Python Datei zur Serverumsetzung</p></li>
+<li><p>7 JavaScript Datei um Events in der Liste zu aktivieren ( hier für die Bestätigung des löschens genutzt)</p></li>
+<li><p>1 CSS Datei um Liste und Form gestalten</p></li>
+<li><p>2 JSON Datei zur Verwaltung der Datensätze</p></li>
+<li><p>1 Templatedateien zur Erstellung der Listen und Formen als HTML-Code</p></li>
+<li><p>1 HTML-datei zur allgemein bilden</p></li>
+</ul>
+<h3 id="beschreibung-der-serverkomponenten">Beschreibung der Serverkomponenten:</h3>
+<h4 id="server.py">server.py:</h4>
+<p>Zweck:</p>
+<p>-Startet den Server</p>
+<p>Aufbau:</p>
+<p>-Besteht aus einer main funktion und ihrem Aufruf.</p>
+<p>Zusammenwirken mit anderen Komponenten:</p>
+<p>-Initialisiert die Klasse Application,template</p>
+<p>API:</p>
+<p>-main()</p>
+<h4 id="application.py">application.py:</h4>
+<p>Zweck:</p>
+<p>-Führt die Komponenten des Servers zusammen</p>
+<p>-Stellt Schnittstelle zum Frontend</p>
+<h4 id="view.py">view.py:</h4>
+<p>Zweck:</p>
+<p>-Zusammenstellen von Html Views</p>
+<h4 id="view_cl.py">view_cl.py:</h4>
+<p>-Zusammenstellen von Html Views aus Templates</p>
+<h4 id="databse.py">databse.py:</h4>
+<p>-Verwaltung von Datenbank</p>
+<h4 id="varabeitung.py">varabeitung.py:</h4>
+<p>-geburtdatum von Pensionäre zu verwalten</p>
+<h3 id="datenablage">Datenablage:</h3>
+<p>-2 JSON dateien fuer Datenbank -1 JSON datei fuer die Pensionäre -1 JSON datei fuer die Vorlage</p>
+<h4 id="ergebnis">Ergebnis:</h4>
+<p><img src="./css.png" alt="CSS" /> <img src="./curl.png" alt="html 1/2" /></p>
+<hr />
+</body>
+</html>

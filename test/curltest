@@ -1,0 +1,3 @@
+curl --request GET  http://localhost:8080/app/person
+curl --header "Content-type: application/json" --request POST --data '{"Name": "Huu Phuc", "Ort": "krefeld", "Anrede": "Herr", "Postleitzahl": "47798", "Hausnummer": "15", "Vorname": "Huynh", "id": "4", "strasse": "westwall", "Geburtdatum": "1998-12-12", "Titel": "student"}' http://localhost:8080/app/person
+curl --header "Content-type: application/json" --request DELETE http://localhost:8080/app/person/4

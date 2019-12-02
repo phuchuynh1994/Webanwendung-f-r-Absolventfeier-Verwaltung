@@ -1,0 +1,43 @@
+<form >
+        <div>
+            <label for="start">Startzeitpunkt</label>
+            <input type="text" value="0" id="start" name="start" required />
+        </div>
+
+        <div>
+            <label for="specificMonth">Nach Monat</label>
+                <select name="specificMonth" id ="specificMonth">
+                    <option value="-1">Alle Monate</option>
+                    <option value="1">Januar</option>
+                    <option value="2">Februar</option>
+                    <option value="3">Maerz</option>
+                    <option value="4">April</option>
+                    <option value="5">Mai</option>
+                    <option value="6">Juni</option>
+                    <option value="7">Juli</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">Oktober</option>
+                    <option value="11">November</option>
+                    <option value="12">Dezember</option>
+            </select>
+        </div>
+        <div>
+            <button id="submit">submit</button>
+        </div>
+    </form>
+        <table>
+   <tr>
+      <th>id</th><th>geburtdatum</th>
+
+   </tr>
+   @var entry_a;@
+   @var loop_i;@
+   @for loop_i = 0; loop_i < context.length; loop_i++@
+      @entry_a = context[loop_i];@
+      <tr id="#entry_a['id']#" class ="#entry_a['sign']#">
+         <td >#entry_a['id']#</td>
+          <td>#entry_a['datum']#</td>
+      </tr>
+   @endfor@
+</table>

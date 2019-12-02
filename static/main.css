@@ -1,0 +1,110 @@
+/* einfaches Layout fuer Demonstrator */
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   top: 0;
+   left: 0;
+   float: left;
+   height: 75px;
+   width: 25%;
+   text-align: center;
+   background-color: black;
+   color: white;
+}
+#version {
+   float:right;
+   height: 75px;
+   width: 75%;
+   background-color: black;
+   color: white;
+   text-align:right;
+}
+aside {
+   position: absolute;
+   top: 75px;
+   left: 0;
+   width: 20%;
+   bottom: 50px;
+   background-color: #eee;
+   color: black;
+}
+main {   position: absolute;
+   top: 75px;
+   left: 20%;
+   right: 0;
+   bottom: 50px;
+}
+footer {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 50px;
+   background-color:#aaa;
+   color:white;
+   text-align:center;
+}
+.signficant {
+    background-color: yellow !important;
+}
+table {
+    border-collapse: collapse;
+
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+footer p {
+   text-align: center;
+}
+
+.clSelected {
+   background-color: blue;
+   color: white;
+}
+
+
+form label {
+   display: block;
+   width: 200px;
+}
+form input {
+   display: block;
+   width: 300px;
+}
+form button {
+   display: block;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* EOF */
