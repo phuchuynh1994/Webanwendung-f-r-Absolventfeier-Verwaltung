@@ -1,7 +1,5 @@
-**WEB Praktikum 4 - WS 17/18**
- 
-**Gruppe: E**
- 
+**WEB-anwendung**
+
 **Team: Huu Phuc Huynh**
  
 **Datum: 18.1.2018**
@@ -35,9 +33,9 @@ Besteht aus:
 
 - 1 HTML-datei zur allgemein bilden
 
-###Beschreibung der Serverkomponenten:
+### Beschreibung der Serverkomponenten:
  
-####server.py: 
+#### server.py: 
  
 Zweck:
 
@@ -55,7 +53,7 @@ Zusammenwirken mit anderen Komponenten:
  
 -main()
  
-####application.py:
+#### application.py:
  
 Zweck:
 
@@ -63,17 +61,17 @@ Zweck:
 
 -Stellt Schnittstelle zum Frontend
 
-####view.py:
+#### view.py:
  
 Zweck:
 
 -Zusammenstellen von Html Views
 
-####view_cl.py:
+#### view_cl.py:
 
 -Zusammenstellen von Html Views aus Templates 
 
-####databse.py:
+#### databse.py:
 
 -Verwaltung von Datenbank
 
@@ -82,13 +80,14 @@ Zweck:
 -geburtdatum von Pensionäre zu verwalten
 
 
-###Datenablage:
+### Datenablage:
 -2 JSON dateien fuer Datenbank
 -1 JSON datei fuer die Pensionäre
 -1 JSON datei fuer die Vorlage
 
 
-####Ergebnis:
+#### 
+Ergebnis:
 ![CSS ](./css.png)
 ![html 1/2](./curl.png)
 
