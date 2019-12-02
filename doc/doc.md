@@ -8,16 +8,16 @@
 
 ___
 
-#Dokumentation
+# Dokumentation
 
-###Allgemeine Beschreibung der Lösung:
+### Allgemeine Beschreibung der Lösung:
 
 Pensionärsliste auf Seiten des Frontends mit  Klassen in Python umgesetzt
 
 An das Frontend werden  J.S. Dateien, eine CSS Datei und aus Templates generierter HTML-Codes geliefert.
 
 
-###Aufbau der Webanwendung:
+### Aufbau der Webanwendung:
  
 Besteht aus: 
  
